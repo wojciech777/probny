@@ -16,7 +16,7 @@ public class Proba {
 			System.out.println("jakos dziala");
 		}
 		
-		Cuisine kuch1 = new Cuisine("najlepsza");
+		Cuisine kuch1 = new Cuisine("polska");
 		Cuisine kuch2 = new Cuisine("niemiecka");
 		kuch1.addProduct(TypeOfProduct.ADDITION, "lemon", 2.5);
 		System.out.println(kuch1.getAllProductsOfType(TypeOfProduct.ADDITION).size());
